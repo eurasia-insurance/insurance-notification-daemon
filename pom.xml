@@ -15,7 +15,6 @@
 	<name>Insurance Lib : Notification daemon</name>
 
 	<modules>
-		<module>template-client</module>
 		<module>beans</module>
 		<module>app</module>
 	</modules>
@@ -30,6 +29,7 @@
 		<lapsa-text.version>1.1</lapsa-text.version>
 		<lapsa-mail.version>2.1</lapsa-mail.version>
 		<insurance-shared.version>1.0</insurance-shared.version>
+		<insurance-notification-template-client.version>2.1-SNAPSHOT</insurance-notification-template-client.version>
 		<insurance-domain.version>2.5-SNAPSHOT</insurance-domain.version>
 	</properties>
 
@@ -86,12 +86,12 @@
 				<artifactId>insurance-domain</artifactId>
 				<version>${insurance-domain.version}</version>
 			</dependency>
-			<!-- own -->
 			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>insurance-notification-daemon-template-client</artifactId>
-				<version>${project.version}</version>
+				<groupId>tech.lapsa.insurance</groupId>
+				<artifactId>insurance-notification-template-client</artifactId>
+				<version>${insurance-notification-template-client.version}</version>
 			</dependency>
+			<!-- own -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>insurance-notification-daemon</artifactId>
