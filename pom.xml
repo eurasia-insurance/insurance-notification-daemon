@@ -30,7 +30,7 @@
 		<lapsa-jms-rpc.version>1.0</lapsa-jms-rpc.version>
 		<lapsa-text.version>1.1</lapsa-text.version>
 		<insurance-shared.version>1.0</insurance-shared.version>
-		<insurance-domain.version>2.4.3-SNAPSHOT</insurance-domain.version>
+		<insurance-domain.version>2.4.3</insurance-domain.version>
 	</properties>
 
 	<dependencyManagement>
