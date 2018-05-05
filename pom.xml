@@ -30,7 +30,7 @@
 		<lapsa-mail.version>2.2</lapsa-mail.version>
 		<insurance-shared.version>1.0</insurance-shared.version>
 		<insurance-notification-template-client.version>2.1</insurance-notification-template-client.version>
-		<insurance-domain.version>2.5.1-SNAPSHOT</insurance-domain.version>
+		<insurance-domain.version>2.5.1</insurance-domain.version>
 	</properties>
 
 	<dependencyManagement>
