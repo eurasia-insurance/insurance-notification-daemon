@@ -9,7 +9,7 @@
 
 	<groupId>tech.lapsa.insurance</groupId>
 	<artifactId>insurance-notification-daemon-root</artifactId>
-	<version>2.2.2-SNAPSHOT</version>
+	<version>2.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Insurance Lib : Notification daemon</name>
