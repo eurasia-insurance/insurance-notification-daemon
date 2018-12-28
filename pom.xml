@@ -108,9 +108,9 @@
 	</dependencyManagement>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/insurance/notification-daemon.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/insurance/notification-daemon.git</developerConnection>
-		<tag>v2.2.3</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/insurance-notification-daemon.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/insurance-notification-daemon.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
