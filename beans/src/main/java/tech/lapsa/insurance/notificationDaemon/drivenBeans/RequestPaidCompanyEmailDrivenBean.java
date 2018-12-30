@@ -39,7 +39,7 @@ public class RequestPaidCompanyEmailDrivenBean extends EmailRequestNotificationB
     @Override
     protected MailMessageBuilder recipients(final MailMessageBuilder builder, final Request request)
 	    throws MailBuilderException {
-	final User a = request.getAcceptedBy();
+	final User a = request.getPickedBy();
 	if (a != null && MyStrings.nonEmpty(a.getEmail()))
 	    return builder.withTORecipient(a.getEmail(), a.getName());
 	return builder.withDefaultRecipient();
