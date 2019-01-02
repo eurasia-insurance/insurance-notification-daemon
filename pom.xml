@@ -9,7 +9,7 @@
 
 	<groupId>tech.lapsa.insurance</groupId>
 	<artifactId>insurance-notification-daemon-root</artifactId>
-	<version>20190103</version>
+	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Insurance Lib : Notification daemon</name>
@@ -110,7 +110,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/eurasia-insurance/insurance-notification-daemon.git</connection>
 		<developerConnection>scm:git:https://github.com/eurasia-insurance/insurance-notification-daemon.git</developerConnection>
-		<tag>v20190103</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
