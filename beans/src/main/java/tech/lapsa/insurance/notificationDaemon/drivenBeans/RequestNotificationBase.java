@@ -46,7 +46,7 @@ public abstract class RequestNotificationBase<T extends Request> extends JmsRece
 	    final InsuranceRequest insuranceRequest = (InsuranceRequest) request;
 	    builder.bind("insuranceRequest", insuranceRequest) //
 		    .bind("product", insuranceRequest.getProduct()) //
-		    .bind("payment", insuranceRequest.getPayment());
+		    .bind("payment", insuranceRequest); // It was PaymentData and all the fields was migrated to InsuranceRequest
 	}
 
 	if (request instanceof PolicyRequest) {
